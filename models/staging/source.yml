@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: user_event
+    tables:
+      - name: user_activity
+        columns:
+          - name: user_id
+          - name: activity_date
